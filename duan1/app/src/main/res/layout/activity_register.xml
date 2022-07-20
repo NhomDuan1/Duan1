@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_back_login"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký thành viên"
+        android:layout_marginTop="150sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãy hoàn thành các mục sau"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/edttk_dk"
+        android:layout_marginTop="20dp"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_edit"
+        android:hint="Nhập tài khoản"
+        />
+
+    <EditText
+        android:id="@+id/edtemail_dk"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:inputType="textEmailAddress"
+        android:hint="Nhập địa chỉ Email"
+        android:background="@drawable/custom_edit"
+        />
+
+    <EditText
+        android:id="@+id/edtmatKhau_dk"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:hint="Nhập mật khẩu"
+        android:inputType="textPassword"
+        android:background="@drawable/custom_edit"
+        />
+
+    <EditText
+        android:id="@+id/edtConematKhau_dk"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"
+        android:background="@drawable/custom_edit"
+        />
+
+    <Button
+        android:id="@+id/btnXacNhan_dk"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"
+        app:backgroundTint="#8FE1DC"
+        android:text="Xác nhận"
+        />
+
+    <TextView
+        android:id="@+id/txtQuenmk_dk"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#2739E2"
+        android:text="Quên mật khẩu ?"
+        />
+
+
+</LinearLayout>
